@@ -1,3 +1,6 @@
+### developed by Guilherme Garcia
+### objective: connect to Athena, and for each database list the table, the colunms and the data type and store this in anothe table.
+
 import pyathena
 from pandas_profiling import ProfileReport
 from pyathena import connect
